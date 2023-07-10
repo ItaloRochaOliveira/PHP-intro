@@ -29,9 +29,9 @@
         Comentário: <textarea type="text" name="comentario" cols="30" rows="3"> </textarea> <br> <br>
         Gênero: <input type="radio" name="genero" value="masculino"> Masculino
         <input type="radio" name="genero" value="feminino"> Femino
-        <input type="radio" name="genero"> Outro <br> <br>
+        <input type="radio" name="genero" value="outro"> Outro <br> <br>
 
-        <button type="submit" name="enviado" value="outros">Enviar</button> <br> <br>
+        <button type="submit" name="enviado">Enviar</button> <br> <br>
 
         <h1>Dados Enviados: </h1>
 
