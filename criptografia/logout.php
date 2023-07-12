@@ -4,7 +4,7 @@
     }
 
     // unset($_SESSION['user']);
-    // var_dump($_SESSION);
+    // var_dump($_SESSION);c
 
     session_destroy();
 
