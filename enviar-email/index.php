@@ -5,8 +5,8 @@
     // -- Biblioteca PHPMailer
     // -- Senha, email, host, porta 587
 
+    include_once 'vendor/autoload.php';
     use PHPMailer\PHPMailer\PHPMailer;
-    require 'vendor/autoload.php';
 
     $mail = new PHPMailer;
     $mail->isSMTP();
@@ -22,7 +22,7 @@
     $mail->CharSet = 'UTF-8';
 
     $mail->setFrom('teste@example.com', 'Título'); //Quem está enviando
-    $mail->addAdress('email_temporario@example.com'); //Para quem vai
+    $mail->addAddress('email_temporario@example.com'); //Para quem vai
     $mail->Subject = "E-mail de teste";
 
     $mail->Body = "<h1>EMail enviado com sucesso!</h1><p>Deu tudo certo!!</p>";
